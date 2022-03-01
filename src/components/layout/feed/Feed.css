@@ -1,0 +1,23 @@
+.feed {
+    flex: 6;
+}
+
+.feedWrapper {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.noPostContainer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.feed small {
+    color: #1877f2;
+    color: #178;
+    color: #000;
+    font-weight: 500;
+}

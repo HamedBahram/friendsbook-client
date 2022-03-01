@@ -1,0 +1,122 @@
+.newPostContainer {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.newPostWrapper {
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.newPostHeader {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.newPostProfileImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.newPostImage {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.newPostInput {
+    border: none;
+    width: 80%;
+    padding: 1rem 0.25rem;
+}
+
+.newPostInput:focus {
+    outline: none;
+}
+
+.newPostHr {
+    margin: 0.75rem;
+}
+
+.newPostFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newPostOptions {
+    width: 100%;
+    margin: 0.5rem 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.newPostOption {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.newPostOptionIcon {
+    font-size: 18px;
+}
+
+.newPostOptionText {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.newPostButton {
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: #1877f2;
+    padding: 0.5rem;
+    margin-left: 2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.loadingSpinnerContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorContainer {
+    background-color: rgb(255, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    margin: 1rem auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.error {
+    color: #fff;
+}
+
+.errorDismissButton {
+    cursor: pointer !important;
+}
